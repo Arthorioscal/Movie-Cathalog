@@ -1,0 +1,12 @@
+<h1>Movie Details</h1>
+
+<p><strong>Title:</strong> <%= @movie.title %></p>
+<p><strong>Genre:</strong> <%= @genres.name %></p>
+<p><strong>Director:</strong> <%= @director.name %></p>
+<p><strong>Synopsis:</strong> <%= @movie.synopsis %></p>
+<p><strong>Country:</strong> <%= @movie.country %></p>
+<p><strong>Duration:</strong> <%= @movie.duration %> minutes</p>
+
+
+<%= link_to 'Edit', edit_movie_path(@movie) %> |
+<%= link_to 'Back', movies_path %>

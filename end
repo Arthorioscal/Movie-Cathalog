@@ -1,0 +1,41 @@
+ => 
+[[32m#<Director:0x000077c3a49faf30[0m
+  id: [34m[1m1[0m,
+  name: [31m[1m"[0m[31mJames Cameron[0m[31m[1m"[0m,
+  nationality: [36m[1mnil[0m,
+  date_of_birth: [36m[1mnil[0m,
+  favorite_genre: [36m[1mnil[0m,
+  created_at: Thu, 28 Mar 2024 06:32:55.099334000 UTC +00:00,
+  updated_at: Thu, 28 Mar 2024 06:32:55.099334000 UTC +00:00[32m>[0m,
+ [32m#<Director:0x000077c3a47a9c40[0m
+  id: [34m[1m2[0m,
+  name: [31m[1m"[0m[31mJames Cameron[0m[31m[1m"[0m,
+  nationality: [36m[1mnil[0m,
+  date_of_birth: [36m[1mnil[0m,
+  favorite_genre: [36m[1mnil[0m,
+  created_at: Thu, 28 Mar 2024 06:32:56.847085000 UTC +00:00,
+  updated_at: Thu, 28 Mar 2024 06:32:56.847085000 UTC +00:00[32m>[0m,
+ [32m#<Director:0x000077c3a47a9b00[0m
+  id: [34m[1m3[0m,
+  name: [31m[1m"[0m[31mJames Cameron[0m[31m[1m"[0m,
+  nationality: [36m[1mnil[0m,
+  date_of_birth: [36m[1mnil[0m,
+  favorite_genre: [36m[1mnil[0m,
+  created_at: Thu, 28 Mar 2024 06:32:57.342632000 UTC +00:00,
+  updated_at: Thu, 28 Mar 2024 06:32:57.342632000 UTC +00:00[32m>[0m,
+ [32m#<Director:0x000077c3a47a99c0[0m
+  id: [34m[1m4[0m,
+  name: [31m[1m"[0m[31mJames Cameron[0m[31m[1m"[0m,
+  nationality: [36m[1mnil[0m,
+  date_of_birth: [36m[1mnil[0m,
+  favorite_genre: [36m[1mnil[0m,
+  created_at: Thu, 28 Mar 2024 06:32:57.560082000 UTC +00:00,
+  updated_at: Thu, 28 Mar 2024 06:32:57.560082000 UTC +00:00[32m>[0m,
+ [32m#<Director:0x000077c3a47a9880[0m
+  id: [34m[1m5[0m,
+  name: [31m[1m"[0m[31mJames Cameron[0m[31m[1m"[0m,
+  nationality: [36m[1mnil[0m,
+  date_of_birth: [36m[1mnil[0m,
+  favorite_genre: [36m[1mnil[0m,
+  created_at: Thu, 28 Mar 2024 06:32:57.858845000 UTC +00:00,
+  updated_at: Thu, 28 Mar 2024 06:32:57.858845000 UTC +00:00[32m>[0m] 

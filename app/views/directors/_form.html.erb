@@ -1,0 +1,25 @@
+<%= form_with(model: @director, local: true) do |form| %>
+    <div class="field">
+        <%= form.label :name %>
+        <%= form.text_field :name %>
+    </div>
+
+    <div class="field">
+        <%= form.label :date_of_birth %>
+        <%= form.date_field :date_of_birth %>
+    </div>
+
+    <div class="field">
+        <%= form.label :country %>
+        <%= form.text_field :country %>
+    </div>
+
+    <div class="field">
+        <%= form.label :favorite_genre%>
+        <%= form.collection_select :favorite_genre_id, Genre.all, :id, :name%>
+    </div>
+
+    <div class="actions">
+        <%= form.submit %>
+    </div>
+<% end %>

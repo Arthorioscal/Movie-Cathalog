@@ -1,0 +1,8 @@
+<h1><%= @genre.name %></h1>
+
+<h2>Filmes com esse genêro:</h2>
+<% @movies.each do |movie| %>
+  <p>
+    <%= movie.title %>
+  </p>
+<% end %>

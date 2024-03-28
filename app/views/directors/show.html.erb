@@ -1,0 +1,8 @@
+<h1><%= @director.name %></h1>
+
+<h2>Filmes que ele dirigiu::</h2>
+<% @movies.each do |movie| %>
+  <p>
+    <%= movie.title %>
+  </p>
+<% end %>

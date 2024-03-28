@@ -1,0 +1,26 @@
+<head>
+    <title>Welcome to Movie Catalog</title>
+</head>
+<body>
+    <nav>
+        <h1>Welcome to Movie Catalog</h1>
+        <p>Obs, aqui você encontra apenas filmes bons</p>
+        <div class="register-options">
+            <%= link_to "Register Genre", new_genre_path %>
+            <%= link_to "Register Director", new_director_path %>
+            <%= link_to "Register Movie", new_movie_path %>
+        </div>
+    </nav>
+    <div class="genre-list">
+        <h2>Registered Genres:</h2>
+        <% @genres.each do |genre| %>
+            <p><%= genre.name %></p>
+        <% end %>
+    </div>
+    <div class="director-list">
+        <h2>Registered Directors:</h2>
+        <% @directors.each do |director| %>
+            <p><%= director.name %></p>
+        <% end %>
+    </div>
+</body>

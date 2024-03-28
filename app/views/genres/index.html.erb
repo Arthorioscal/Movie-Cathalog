@@ -1,0 +1,22 @@
+<h1>Genres</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @genres.each do |genre| %>
+            <tr>
+                <td><%= genre.name %></td>
+                <td>
+                    <%= link_to 'Edit', edit_genre_path(genre) %>
+                </td>
+                <td>
+                    <%= link_to 'Show', genre_path(genre) %>
+                </td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
