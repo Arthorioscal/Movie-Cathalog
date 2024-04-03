@@ -6,7 +6,8 @@
 <p><strong>Synopsis:</strong> <%= @movie.synopsis %></p>
 <p><strong>Country:</strong> <%= @movie.country %></p>
 <p><strong>Duration:</strong> <%= @movie.duration %> minutes</p>
+<p><strong>Status: <%= @movie.status %></strong></p>
 
 
 <%= link_to 'Edit', edit_movie_path(@movie) %> |
-<%= link_to 'Back', movies_path %>
+<%= link_to 'Back', movies_index_path %>

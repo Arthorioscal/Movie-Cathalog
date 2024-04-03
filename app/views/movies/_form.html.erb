@@ -33,7 +33,10 @@
         <%= form.label :director%>
         <%= form.collection_select :director_id, Director.all, :id, :name%>
     </div>
-        <div class="actions">
+    <div>
+        <%= form.select :status, Movie.statuses.keys %>
+    </div>
+    <div class="actions">
         <%= form.submit %>
     </div>
 <% end %>
