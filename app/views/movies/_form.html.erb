@@ -36,6 +36,10 @@
     <div>
         <%= form.select :status, Movie.statuses.keys %>
     </div>
+    <div>
+        <%= form.label "Movie Poster" %>
+        <%= form.file_field :poster %><br>
+    </div>
     <div class="actions">
         <%= form.submit %>
     </div>
